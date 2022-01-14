@@ -1,14 +1,17 @@
 function fizzbuzzFunction(x) {
-    for (let i = 0; i < x; i++) {
-        if (i%3 == 0 && i%5 == 0) {
+    for (let i = 0; i <= x; i++) {
+        if (i%3 == 0 && i%5 == 0 && i != 0) {
             console.log('Fizz Buzz');
         }
-        else if (i%3== 0){
+        else if (i%3== 0 && i != 0){
             console.log('Fizz');
+        }
+        else {
+            console.log(i);
         }
     }
 }
 
-var x = 9
+var x = 15
 
 fizzbuzzFunction(x);
