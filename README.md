@@ -1,1 +1,1 @@
-#Repo for JS for JJTTP 2022 puzzles.
+# Repo for JS for JJTTP 2022 puzzles.
